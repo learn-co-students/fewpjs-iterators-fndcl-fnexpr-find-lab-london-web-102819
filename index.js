@@ -7,6 +7,5 @@ function testFunc() {
 
 function superbowlWin(record) {
   let win = record.find(function(obj){return obj.result === "W"})
-  console.log('record> ', record)
   return win ? win.year : win
 }
